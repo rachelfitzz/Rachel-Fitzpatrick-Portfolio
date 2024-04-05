@@ -1,0 +1,120 @@
+body {
+    font-family: 'Helvetica' sans-serif;
+    font-size: 24px;
+    background-color: #98c4c1;
+    background-image: url(backgoundphoto.jpg);
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 4px 7px -5px rgba(0,0,0,0.75);
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+.navBar a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .navBar a:hover {
+    text-decoration: underline;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    margin: 0;
+  }
+  .box-dark {
+    background-color: #323026;
+    color: white;
+  }
+
+  #header {
+   margin: 120px auto;
+   width: 70%;
+   text-align: center;
+   border-radius: 10px;
+  }
+
+  #header p {
+    font-size: 20px;
+  }
+
+  .centerHeader {
+    text-align: center;
+  }
+  .banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0f2a1e;
+    height: 500px;
+    padding: 50px;
+    margin: 100px 0;
+
+  }
+
+  .bannerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    width: 500px;
+  }
+  .bannerText *{
+    margin: 0;
+  }
+
+  .buttonState1 {
+    background-color: #98c4c1;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border: none;
+    width: 125px;
+  }
+
+  .bannerDecorations {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bannerImage {
+    /* height: 300px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+  }
+
+  .bannerDecorBox {
+    background-color: #0f4352;
+    height: 300px;
+    width: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+  }
+  .footerNav {
+    margin: 0 auto;
+  }
